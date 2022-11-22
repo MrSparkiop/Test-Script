@@ -15,7 +15,7 @@ void task2() {
         arr[i] = new int[columns];
         for (int j = 0; j < columns; j++)
         {
-            arr[i][j] = rand() % 100 + 1;
+            arr[i][j] = rand() % 101 + 1;
             cout << arr[i][j] << " ";
         }
         cout << endl;
